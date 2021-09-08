@@ -1,0 +1,9 @@
+.card {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.card-label {
+    color: rgb(95, 93, 93);
+}
