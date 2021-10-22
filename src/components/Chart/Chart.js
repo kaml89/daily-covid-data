@@ -6,7 +6,7 @@ import { getWindowDimensions } from "../../utils/getWindowDimensions";
 import PropTypes from "prop-types";
 
 const Chart = ({ data }) => {
-  const { width, height } = getWindowDimensions();
+  const { width } = getWindowDimensions();
 
   const ref = useD3(
     (svg) => {

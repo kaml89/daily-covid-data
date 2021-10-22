@@ -3,7 +3,7 @@ import { getDailyData, getHistoricalData } from "./services/index";
 import { processData } from "./utils/processData";
 import Button from "./components/Button/Button";
 import CovidData from "./components/CovidData/CovidData";
-import "./styles.css";
+import "./App.css";
 import { Spinner } from "theme-ui";
 
 export default function App() {

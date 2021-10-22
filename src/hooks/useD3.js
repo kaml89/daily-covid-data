@@ -6,7 +6,7 @@ export const useD3 = (renderChart, dependencies) => {
 
   useEffect(() => {
     renderChart(d3.select(ref.current));
-    return () => {};
+    return () => {}; // eslint-disable-next-line
   }, dependencies);
 
   return ref;
