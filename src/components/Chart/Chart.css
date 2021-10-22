@@ -1,22 +1,30 @@
 .chart-container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  text-align: center;
 }
 
 svg {
-    display: block;
-    text-align: center;
-    height: 800;
-    width: 1500px;
-    margin-left: 0;
-    margin-right: 0;
+  display: block;
+  text-align: center;
+  height: 800;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .tooltip {
-    position: absolute;
-    /* top: -50px;
-    left: 40px; */
+  position: absolute;
+  font-weight: 600;
+  /* top: -50px;
+  left: 40px; */
+}
+
+.cases {
+  margin: 0;
+}
+
+.date {
+  margin: 0;
 }

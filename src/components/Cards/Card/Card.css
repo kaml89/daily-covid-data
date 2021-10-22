@@ -1,9 +1,11 @@
 .card {
-    width: 200px;
-    height: 200px;
-    text-align: center;
+  width: 200px;
+  height: 160px;
+  text-align: center;
+  border-bottom: solid rgb(56, 111, 170);
 }
 
 .card-label {
-    color: rgb(95, 93, 93);
+  color: rgb(95, 93, 93);
+  padding-bottom: 0;
 }

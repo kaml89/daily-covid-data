@@ -1,30 +1,29 @@
 .button {
-    display: inline-block;
-    border: none;
-    border-radius: 4px;
-    width: 300px;
-    height: 50px;
-    padding: 1rem 2rem;
-    margin: 0;
-    text-decoration: none;
-    background: rgb(56, 111, 170);
-    font-family: sans-serif;
-    font-size: 2rem;
-    font-weight: 600;
-    cursor: pointer;
-    color: white;
-    text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  width: 300px;
+  height: 50px;
+  padding: 0.25rem 1rem;
+  margin: 0;
+  text-decoration: none;
+  background: rgb(56, 111, 170);
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .button:hover,
 .button:focus {
-    background: rgb(59, 126, 197);
+  background: rgb(59, 126, 197);
 }
 
 .button:active {
-    transform: scale(0.99);
+  transform: scale(0.99);
 }
